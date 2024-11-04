@@ -10,17 +10,6 @@ void getd() {
 while (a == 0) {
 System.out.println("The given equation is not a quadratic equation");
 System.out.println("Enter a:");
-import java.util.Scanner;
-import java.lang.Math;
-
-class Quadratic {
-int a, b, c;
-double r1, r2, d;
-
-void getd() {
-while (a == 0) {
-System.out.println("The given equation is not a quadratic equation");
-System.out.println("Enter a:");
 Scanner scanner = new Scanner(System.in);
 a = scanner.nextInt();
 }
