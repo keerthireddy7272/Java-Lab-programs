@@ -86,11 +86,10 @@ class SavingsAccount extends Account {
 
 public class Bank {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter account holder's name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.print("Enter account number: ");
-        String number = scanner.next(); // Keep as String
+        String number = scanner.nextLine(); 
         System.out.print("Enter initial balance: ");
         double balance = scanner.nextDouble();
         System.out.print("Enter account type (1 for Savings, 2 for Current): ");
