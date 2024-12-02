@@ -86,6 +86,7 @@ class SavingsAccount extends Account {
 
 public class Bank {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter account holder's name: ");
         String name = scanner.nextLine();
         System.out.print("Enter account number: ");
